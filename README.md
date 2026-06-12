@@ -2,9 +2,9 @@
 
 ## 🔍 Business Problem
 
-Hospital emergency rooms face constant pressure to optimize patient flow, minimize wait times, and improve patient satisfaction — all while managing limited resources. Without clear visibility into operational data, hospital management cannot make timely, informed decisions on staffing, department capacity, or service quality.
+Hospital emergency rooms face constant pressure to optimize patient flow, minimize wait times, and improve patient satisfaction, all while managing limited resources. Without clear visibility into operational data, hospital management cannot make timely, informed decisions on staffing, department capacity, or service quality.
 
-**The goal:** Build a dynamic, interactive Excel dashboard that gives hospital leadership real-time visibility into ER operations — covering patient flow, demographics, department referrals, wait times, and satisfaction scores — to enable data-driven decisions that improve efficiency and patient experience.
+**The goal:** Build a dynamic, interactive Excel dashboard that gives hospital leadership real-time visibility into ER operations — covering patient flow, demographics, department referrals, wait times, and satisfaction scores to enable data-driven decisions that improve efficiency and patient experience.
 
 ### Key Business Questions Answered
 - What are the monthly, daily, and hourly trends in patient visits and wait times?
@@ -44,7 +44,7 @@ The dashboard delivered actionable insights that directly informed hospital oper
 - ⏰ **Staffing optimization** — hourly and daily patient flow patterns identified peak demand periods, enabling dynamic staffing schedules aligned to patient volume
 - 😟 **Satisfaction gaps** — low satisfaction scores in Cardiology and Gastroenterology referral pathways and in age brackets 40–49 and 70+ flagged areas needing immediate process review
 - 🏨 **Top referral departments** — General and Orthopedics identified as primary referral destinations, pointing to where process improvements would have the greatest impact
-- ⚠️ **Delay crisis** — with **62% of services experiencing delays**, the dashboard recommended a hospital-wide initiative to identify and eliminate operational bottlenecks
+- ⚠️ **Delay crisis** with **62% of services experiencing delays**, the dashboard recommended a hospital-wide initiative to identify and eliminate operational bottlenecks
 - 📅 **Dynamic filtering** — management can visualize operations for any specific year or month, enabling targeted and timely decision-making
 
 ---
