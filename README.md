@@ -1,57 +1,64 @@
 # 🏥 Hospital Emergency Room Analytics Dashboard | Advanced Excel
 
-## 🔍 Business Problem
+## ⭐ Project Summary
 
-Hospital emergency rooms face constant pressure to optimize patient flow, minimize wait times, and improve patient satisfaction, all while managing limited resources. Without clear visibility into operational data, hospital management cannot make timely, informed decisions on staffing, department capacity, or service quality.
-
-**The goal:** Build a dynamic, interactive Excel dashboard that gives hospital leadership real-time visibility into ER operations — covering patient flow, demographics, department referrals, wait times, and satisfaction scores to enable data-driven decisions that improve efficiency and patient experience.
-
-### Key Business Questions Answered
-- What are the monthly, daily, and hourly trends in patient visits and wait times?
-- Where are the bottlenecks causing service delays?
-- Who are the patients (age, gender) and how do demographics relate to visit patterns?
-- Which departments receive the most ER referrals and what is the gender distribution?
-- Which ER services require immediate attention based on patient satisfaction?
+| | |
+|---|---|
+| **Business Context** | Hospital ER management lacked visibility into operational data, making it impossible to manage patient flow, staffing, and satisfaction effectively |
+| **Objective** | Design and build a comprehensive, interactive Excel dashboard to transform raw ER data into clear, actionable insights for hospital leadership |
+| **Solution** | Built an end-to-end data pipeline in Excel using Power Query, Power Pivot, DAX, Pivot Tables, and Pivot Charts to analyze 9,000+ patient records |
+| **Business Outcome** | Identified that 62% of services were delayed, pinpointed a noon wait-time spike of 44 minutes, and surfaced satisfaction gaps in Cardiology and Gastroenterology — enabling targeted staffing and process improvement recommendations |
 
 ---
 
-## 🛠️ How It Was Solved
+## 🔍 Business Problem
 
-A full data pipeline was built entirely within Excel across 4 stages:
+Hospital emergency rooms are complex environments where managing patient flow, minimizing wait times, and ensuring high patient satisfaction are critical operational priorities. Without a centralized, data-driven view of ER operations, hospital leadership was unable to identify bottlenecks, allocate staff effectively, or understand which patient groups were most underserved.
 
-### Stage 1 — Import & Ingest (Power Query)
-Raw operational ER data was imported and cleaned using Power Query — handling missing values, standardizing formats, and structuring data for analysis.
+---
 
-### Stage 2 — Data Modelling (Power Pivot)
-Relationships were established between multiple tables in Power Pivot to create a robust data model, enabling complex cross-table calculations.
+## 🎯 Objective
 
-### Stage 3 — DAX Measures
-Custom DAX measures were written to calculate key performance indicators including:
-- Average patient wait time
-- % of services experiencing delays
+To design and deliver a comprehensive, interactive Excel dashboard that transforms raw ER operational data into clear, actionable intelligence — covering patient flow, demographics, departmental referrals, wait times, and satisfaction scores — empowering hospital management to make timely, informed decisions.
+
+---
+
+## 💡 Solution
+
+A full analytical data pipeline was architected and executed entirely within Excel across four stages:
+
+**Stage 1 — Data Ingestion & Preparation (Power Query)**
+Raw ER operational data was imported and transformed using Power Query — resolving missing values, standardizing formats, and structuring data for downstream analysis.
+
+**Stage 2 — Data Modelling (Power Pivot)**
+A relational data model was established across multiple tables in Power Pivot, enabling complex cross-functional calculations and multi-dimensional analysis.
+
+**Stage 3 — KPI Development (DAX)**
+Custom DAX measures were engineered to quantify key performance indicators including:
+- Average patient wait time by hour and day
+- Percentage of services experiencing delays
 - Patient satisfaction scores by department and age group
 - Referral volume by department and gender
 
-### Stage 4 — Dynamic Dashboard (Pivot Tables & Pivot Charts)
-An interactive dashboard was built using Pivot Tables and Pivot Charts with slicers for year and month filtering, enabling management to drill into any time period for targeted analysis.
+**Stage 4 — Executive Dashboard (Pivot Tables & Pivot Charts)**
+An interactive two-page dashboard was developed with dynamic year and month slicers, enabling leadership to interrogate any time period for targeted operational review.
+
+**Technical Toolkit:** Power Query · Power Pivot · DAX · Pivot Tables · Pivot Charts · Slicers · Data Modelling
 
 ---
 
-## 📊 Output & Key Insights
+## 📊 Business Outcome
 
-The dashboard delivered actionable insights that directly informed hospital operations:
+The dashboard delivered the following measurable insights and recommendations to hospital leadership:
 
-- ⏰ **Staffing optimization** — hourly and daily patient flow patterns identified peak demand periods, enabling dynamic staffing schedules aligned to patient volume
-- 😟 **Satisfaction gaps** — low satisfaction scores in Cardiology and Gastroenterology referral pathways and in age brackets 40–49 and 70+ flagged areas needing immediate process review
-- 🏨 **Top referral departments** — General and Orthopedics identified as primary referral destinations, pointing to where process improvements would have the greatest impact
-- ⚠️ **Delay crisis** with **62% of services experiencing delays**, the dashboard recommended a hospital-wide initiative to identify and eliminate operational bottlenecks
-- 📅 **Dynamic filtering** — management can visualize operations for any specific year or month, enabling targeted and timely decision-making
+- ⚠️ **62% of services were experiencing delays** — precipitating a hospital-wide initiative to identify and eliminate operational bottlenecks
+- ⏰ **Wait times peaked at 44 minutes around noon** — enabling targeted staffing interventions during critical demand hours
+- 😟 **Below-average satisfaction scores in Cardiology and Gastroenterology** — escalated for immediate root cause analysis and process redesign
+- 👥 **General Practice and Orthopedics identified as primary ER referral pathways** — prioritized for capacity planning and workflow optimization
+- 📋 **Age groups 40–49 and 70+ recorded the lowest satisfaction scores** — highlighted for dedicated patient experience improvement initiatives
+- 📅 **Dynamic time-based filtering** enabled management to monitor performance across any month or year, supporting agile and evidence-based decision making
 
 ---
-
-## 🛠️ Tools & Skills Used
-
-**Excel:** Power Query · Power Pivot · DAX · Pivot Tables · Pivot Charts · Slicers
 
 **Skills Demonstrated:**
 - End-to-end data pipeline in Excel (ingest → clean → model → visualize)
